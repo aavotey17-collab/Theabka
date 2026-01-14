@@ -45,7 +45,7 @@ body {
 
 /* title */
 .title {
-    font-size: 25px;
+    font-size: 21px;
     margin-bottom: 20px;
     justify-content: center;
     animation: titleFadeUp 1s ease forwards;
@@ -87,8 +87,9 @@ body {
 }
 
 .info-title {
-    font-size: 25px;
+    font-size: 21px;
     margin-bottom: 20px;
+     font-family: "Moulpali", sans-serif;
 }
 
 /* couple section */
@@ -256,3 +257,27 @@ button:active {
 .active {
     background-color: #333;
 }
+.name{
+    font-size: 19px;
+    font-family: "Moulpali", sans-serif;
+}
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.map img {
+  max-width: 50%;
+  height: auto;
+}
+
+.victor {
+  display: flex;
+  justify-content: center;
+}
+
+.victor img {
+  max-width: 50%;
+  height: auto;
+}
+
